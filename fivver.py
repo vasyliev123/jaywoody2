@@ -107,7 +107,7 @@ async def main16():
                 groups.append(dialog.id)
     print(groups)      
     for group in groups:
-        time.sleep(5)
+        time.sleep(60)
         try:
             await client16.send_file(group, 'pic16.png', caption=
             "Selling IG shoutouts🔥\n"+
