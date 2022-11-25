@@ -1,1 +1,1 @@
-bot: python3 fiverr.py
+bot: python3 fivver.py
