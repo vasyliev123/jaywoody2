@@ -43,7 +43,13 @@ async def main13():
     for group in groups:
         time.sleep(10)
         try:
-            await client13.send_file(group, 'pic1.jpg')
+            await client13.send_message(group,"REDDIT ADVERTISING COURSE AVAILABLE FOR ONLY $20🔥📈\n"+
+"\n"+
+                                                "We have used reddit advertising for years with many models who started from scratch and others in the top 1%. Reddit is an easy and effective way to gain quality fans because they are SPENDERS and constantly looking 💰\n"+
+"\n"+
+                                                "There are hundreds of subreddits to post in which gives any girl from thick to thin the ability to gain attention 💕\n"+
+"\n"+
+                                                "You can implement the strategies right away and start gaining fans within the first week. PLEASE DM me for more details! ⚡️")
             print("CLIENT 13 message sent to group" + str(group))
             
         except Exception as er:
