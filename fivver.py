@@ -66,7 +66,7 @@ async def main14():
                 groups.append(dialog.id)
     print(groups)      
     for group in groups:
-        time.sleep(45)
+        time.sleep(95)
         try:
             await client14.send_file(group, 'pic3.jpg')
             print("CLIENT 14 message sent to group" + str(group))
@@ -133,12 +133,12 @@ async def main16():
             print(er)  
 while True:
     try:
-        with client16:
-            client16.loop.run_until_complete(main16())
-        with client15:
-            client15.loop.run_until_complete(main15())
-        with client12:
-            client12.loop.run_until_complete(main12())
+        # with client16:
+        #     client16.loop.run_until_complete(main16())
+        # with client15:
+        #     client15.loop.run_until_complete(main15())
+        # with client12:
+        #     client12.loop.run_until_complete(main12())
         with client13:
             client13.loop.run_until_complete(main13())
         with client14:
